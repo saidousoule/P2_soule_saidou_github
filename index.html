@@ -31,13 +31,24 @@
             <p>En plein centre ville ou en plaine nature</p>
              <div id="div-section-1">
                  <form>
-                     
+                    <div>
                      <i class="fas fa-map-marker-alt"></i>
                      <input type="text" placeholder="Entrer votre destination">
                      <button id="button-recherche">Recherche</button><br><br>
-                     <h3 id="Filtre">Filtre</h3>
+                    </div> 
+                </form>
 
-                 </form>
+                    <div>
+                     <p>
+                         <h3 id="Filtre">Filtre</h3> 
+                         <span class="filtre"><i class="fas fa-money-bill-wave"></i>Economique</span>
+                         <span class="filtre"><i class="fas fa-child"></i>Familial</span>
+                         <span class="filtre"><i class="fas fa-heart"></i>Romantique</span>
+                         <span class="filtre"><i class="fas fa-dog"></i>Animaux autorisés</span>
+                     </p>
+                    </div>
+
+                 
              </div>
      
     </section>
@@ -62,7 +73,20 @@
         </div>
 
         <aside id="les-plus-populaires">
-            <article class="S2A2"></article>
+            <article class="S2A2"><span class="C2etoiles"><div>1</div>
+    
+                <span class="C2etoiles"><div>2</div>
+                    
+                    <span class="C2etoiles"><div>3</div>
+                        
+                        <span class="C2etoiles"><div>4</div>
+                            
+                            <span class="C2etoiles"><div>5</div> <!-- les div ici permettent l'affichage de l'étoile via la propriété "content", avec le sélecteur ".C2etoiles div::after" -->
+                            </span>
+                        </span>
+                    </span>
+                </span>
+            </span></article>
             <article class="S2A2"></article>
             <article class="S2A2"></article>
         </aside>
