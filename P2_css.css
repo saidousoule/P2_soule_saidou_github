@@ -14,5 +14,59 @@
 .C2etoiles div::after{
     content:"\002605"; /* une étoile en Unicode 
 }
-
 */
+
+
+
+/*header avec la nav bar*/
+
+#Menu{
+    
+    }
+
+#lentete{
+    display: flex;
+    justify-content:space-between;
+    
+
+}
+
+#logo{
+    justify-content: start;
+    padding-left: 40px;
+}
+
+#navbar{
+    margin-right: 40px;
+}
+
+#description-menu
+{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: Raleway Arial, Helvetica, sans-serif;
+   
+    
+}
+
+.nom-nav{
+    padding-right: 40px;
+    color:  #0065FC;
+}
+
+/*  section 1 trouver votre hébergement pour des vacances de rêve */
+
+#h1-section1
+{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    justify-content: start;
+    padding: 40px 0px 0px 40px ;
+}
+
+p
+{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    justify-content: start;
+    padding-left: 40px;
+}
