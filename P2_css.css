@@ -1,20 +1,3 @@
-/* j'ai fait un CSS basique, le but étant de montrer la technique pour colorer le fond de l'étoile 1 si on est sur la 1ère étoile, les étoiles 1 et 2 si on est sur la 2ème étoile, etc 
-.C2etoiles{
-    background:red;
-    display:inline-block;
-    cursor:pointer;
-}
-.C2etoiles:hover{
-    background:green;
-}
-.C2etoiles div{
-    display:inline-block;
-    padding:5px;
-}
-.C2etoiles div::after{
-    content:"\002605"; /* une étoile en Unicode 
-}
-*/
 
 body{
     max-width: 1400px;
@@ -168,4 +151,78 @@ i{
     padding-top: 5px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+/* Section 2 */
+
+.section2{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.S1S1{
+    background-color:#F2F2F2 ;
+    display: block;
+    border-radius: 20px;
+    width: 60%;
+    height: 800px;
+}
+
+.ligne1-S1S1
+{
+    display:block
+}
+
+.h1hebergement{
+    display: inline;
+    height: 20px;
+    width: 500px;
+    position: absolute;
+    margin-left: 50px;
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.S2A1{
+    margin-top: 100px;
+}
+
+.image-section2{
+    height: 150px;
+    width: 225px;
+    border-radius: 20px;
+    
+}
+
+.ligne1{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.ligne2{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.annexe{
+    background-color:#F2F2F2 ;
+    display: block;
+    border-radius: 20px;
+    width: 35%;
+    justify-content: center;
+    height: 800px;
+}
+
+.S2A1{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.S2A2{
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
 }
