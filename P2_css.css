@@ -165,7 +165,7 @@ i{
     display: block;
     border-radius: 20px;
     width: 60%;
-    height: 800px;
+    height: 720px;
 }
 
 .ligne1-S1S1
@@ -173,7 +173,7 @@ i{
     display:block
 }
 
-.h1hebergement{
+.h1-section2{
     display: inline;
     height: 20px;
     width: 500px;
@@ -190,7 +190,7 @@ i{
 .image-section2{
     height: 150px;
     width: 225px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0;
     
 }
 
@@ -204,25 +204,65 @@ i{
     display: flex;
     justify-content: space-evenly;
     justify-content: center;
-}
-
-.annexe{
-    background-color:#F2F2F2 ;
-    display: block;
-    border-radius: 20px;
-    width: 35%;
-    justify-content: center;
-    height: 800px;
+    margin-top: 40px;
 }
 
 .S2A1{
     display: block;
     margin-left: 20px;
     margin-right: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: #fff solid 5px;
 }
 
 .S2A2{
     display: block;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.S2A2{
+    background-color: #fff;
+    border-radius: 20px;
+    border: #fff solid 5px;
+}
+
+.h2section2{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.p-section2{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-top: 2px;
+    padding-left: 10px;
+}
+
+#h5section2{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+.annexe{
+    background-color:#F2F2F2 ;
+    display: block;
+    border-radius: 20px;
+    width: 30%;
+    justify-content: center;
+    height: 720px;
+}
+
+.image2-section2{
+    height: 170px;
+    width: 170px;
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 100px;
 }
