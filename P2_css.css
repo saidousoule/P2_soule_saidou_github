@@ -93,7 +93,7 @@ i{
     margin-right: 0%;
 }
 
-/* parti filtre de la section 1*/
+/*----------- parti filtre de la section 1---------------*/
 
 #filtre-general{
   display: flex;
@@ -153,11 +153,12 @@ i{
     margin-bottom: 0px;
 }
 
-/* Section 2 */
+/*--------------------------Section 2---------------- */
 
 .section2{
    display: flex;
    justify-content: space-evenly;
+   margin-bottom: 60px;
 }
 
 .S1S1{
@@ -214,15 +215,14 @@ i{
     background-color: #fff;
     border-radius: 20px;
     border: #fff solid 5px;
+    box-shadow: 0px 2px 13px -8px;
 }
 
 .S2A2{
     display: block;
     margin-left: 20px;
     margin-right: 20px;
-}
-
-.S2A2{
+    box-shadow: 0px 2px 13px -8px;
     background-color: #fff;
     border-radius: 20px;
     border: #fff solid 5px;
@@ -258,6 +258,7 @@ i{
     width: 30%;
     justify-content: center;
     height: 720px;
+    
 }
 
 .image2-section2{
@@ -278,6 +279,7 @@ i{
     margin: 100px 20px 0px 20px;
     display: flex;
     justify-content: flex-start;
+    box-shadow: 0px 2px 13px -8px;
 }
 
 .annexe2{
@@ -289,13 +291,121 @@ i{
     margin: 30px 20px 0px 20px; 
     display: flex;
     justify-content: flex-start;
+    background-color: #fff;
+    border-radius: 20px;
+    border: #fff solid 5px;
+    box-shadow: 0px 2px 13px -8px;
 }
 
-.text-annexe{
+.text-annexe-h2{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    display: block;
+    display: inline;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+.text-annexe-h4{
     font-family: Raleway Arial, Helvetica, sans-serif;
     font-size: 10px;
     text-align: left;
     display: block;
     display: inline;
     padding-left: 3px;
+}
+
+.div-annexe{
+    display: inline;
+}
+
+/* -------------------SECTION 3------------------------ */
+
+.section3{
+    display: flex;
+    margin-top: 18px;
+    justify-content: space-evenly;
+    height: 540px;
+}
+
+.activité-a-marseille{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.titre-section-3{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    display: inline;
+    height: 20px;
+    width: 300px;
+    margin-left: 53px;
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+.grande-image-S3{
+    height: 308px;
+    width: 250px;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 0px;
+}
+
+.petite-image-S3{
+    height: 118px;
+    width: 250px;
+    border-radius: 20px 20px 0 0;
+}
+
+.S3D3{
+    width: 250px;
+    height: 355px;
+    justify-content: space-between;
+}    
+
+/*-------------------------Footer----------------------*/
+
+.pied-de-page{
+    display: flex;
+    background-color:#F2F2F2 ;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.S3D1
+{
+    margin-right: 50px;
+}
+
+.S3D3{
+    margin-right: 50px;
+}
+
+.article-S3D1{
+    display: block;
+    box-shadow: 0px 2px 13px -8px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: #fff solid px;
+    height: 355px;
+    width: 250px;
+    justify-content: center;
+}
+
+.article-S3D2{
+    display: block;
+    box-shadow: 0px 2px 13px -8px;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 162px;
+    width: 250px;
+    justify-content: center;
+    /* une balise margin-top=30px et directement ecrit sur le HTML de la div article-S3D2 sir le deuxieme image */
+}
+
+.h2section3{
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-left: 10px;
 }
