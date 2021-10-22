@@ -6,8 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
     <meta name="description" content="réserver votre hébergement à marseille">
-    <link rel="stylesheet" href="P2_css.css">
+    <link rel="stylesheet" href="CSS/P2_css.css">
+    <!--script pour les emoticone en ligne-->
     <script src="https://kit.fontawesome.com/a44f18d37f.js" crossorigin="anonymous"></script>
+    <!--Fine police d'écriture-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <!--grosse police d'écriture-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&family=Raleway:wght@100;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,15 +28,15 @@
             <img id="logo" src="Projet+2+-+Reservia+FR/Projet2-Reservia/images/logo/Reservia.svg" alt="Logo Reservia">
             <nav id="navbar">
                 <ul id="description-menu">
-                     <li class="nom-nav">Hébergements</li>
-                     <li class="nom-nav">Activités</li>
-                     <li class="nom-nav">S'inscrire</li>
+                     <li class="nom-nav" ><a href="#hebergement"> Hébergements</a></li>
+                     <li class="nom-nav"><a href="#activite">Activités</a></li>
+                     <li class="nom-nav"><a href="#">S'inscrire</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section>
+    <section id="hebergement">
         <h1 id="h1-section1">Trouvez votre hébergement pour des vacances de rêve</h1>
         <p id="location">En plein centre ville ou en plaine nature</p>
         <div id="div-section-1">
@@ -200,7 +209,7 @@
        
         <div class="activité-a-marseille">
             <div class="S3D1">
-                <article >
+                <article id="activite" >
                     <div class="article-S3D1">
                         <img src="Projet+2+-+Reservia+FR/Projet2-Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="grande-image-S3" alt="vieux-port">
                         <h2 class="h2section3">Vieux-Port</h2>
@@ -251,6 +260,9 @@
     </section>
 
     <Footer class="pied-de-page">
+
+        <!--pdp1= pied de page 1-->
+
          <div class="Pdp1">
              <h2>A propos</h2><br>
              <p>Fonctionnement du site</p><br>
@@ -258,12 +270,16 @@
              <p>Données et confidentialité</p>
          </div>
 
+        <!--pdp2= pied de page 2--> 
+
          <div class="Pdp2">
             <h2>Nos Hébergements</h2><br>
             <p>Charte qualité</p><br>
             <p>Soumettre votre Hôtel</p>
         </div>
 
+        <!--pdp3= pied de page 3-->
+        
         <div class="Pdp3">
             <h2>Assistance</h2><br>
             <p>Centre d'aide</p><br>

@@ -2,6 +2,7 @@
 body{
     max-width: 1400px;
     margin: auto;
+    font-family: Festif;
 }
 
 /*header avec la nav bar*/
@@ -23,6 +24,13 @@ body{
     padding-left: 40px;
 }
 
+.nom-nav:hover {
+    border-top: 2px solid #0065FC;
+    padding-top: 15px;
+    width: 70px;
+    justify-content: space-evenly;
+}
+
 #navbar{
     margin-right: 40px;
 }
@@ -32,9 +40,7 @@ body{
     display: flex;
     flex-direction: row;
     list-style: none;
-    font-family: Raleway Arial, Helvetica, sans-serif;
-   
-    
+    font-family: Raleway Arial, Helvetica, sans-serif;    
 }
 
 .nom-nav{
@@ -46,7 +52,8 @@ body{
 
 #h1-section1
 {
-    font-family: Raleway Arial, Helvetica, sans-serif;
+    /*font-family: Raleway Arial, Helvetica, sans-serif;*/
+    font-family: 'Raleway', sans-serif;
     justify-content: start;
     padding: 10px 0px 0px 40px;
     margin-bottom: 5px;
@@ -362,16 +369,8 @@ i{
     width: 250px;
     height: 355px;
     justify-content: space-between;
-}    
-
-.S3D1
-{
-   
-}
-
-.S3D3{
     margin-right: 50px;
-}
+}    
 
 .article-S3D1{
     display: block;
