@@ -15,9 +15,6 @@ body{
 
 }
 
-#location{
-    margin-top: 2px;
-}
 
 #logo{
     justify-content: start;
@@ -61,6 +58,17 @@ a{
 }
 
 /*  section 1 trouver votre hébergement pour des vacances de rêve */
+
+
+
+#location{
+    margin-top: 2px;
+    padding-left: 48px;
+}
+
+#hebergement{
+    position: relative;
+}
 
 #h1-section1
 {
@@ -114,23 +122,14 @@ i{
 
 /*----------- parti filtre de la section 1---------------*/
 
+
+
 #filtre-general{
   display: flex;
-  
+  padding-left: 48px;
 }
 
-.filtre{
-    justify-content: center;
-    margin-left: 30px;
-    margin-right: 10px;
-    border-radius: 50px 50px;
-    background-color: #DEEBFF;
-    padding: 10px 3px 25px 8px;
-    color: #0065FC;
-    height: 1px;
-    width: 25px;
-    
-}
+
 
 #Filtre-titre-h3{
     margin-top: 6px;
@@ -171,6 +170,21 @@ i{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.filtre{
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 50px 50px;
+    background-color: #DEEBFF;
+    padding: 10px 3px 25px 8px;
+    color: #0065FC;
+    height: 1px;
+    width: 25px;
+}
+
+
+
 
 /*--------------------------Section 2---------------- */
 
@@ -351,7 +365,6 @@ i{
 .fas{
     color: #0065FC;
     margin-bottom: 5px;
-    background: none;
 }
 
 .fa-star:hover{
@@ -456,21 +469,29 @@ i{
     display: flex;
     background-color:#F2F2F2 ;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     
 }
 
 .pdp1{
     justify-content: flex-start;
-    margin-left: 10px;
+    margin-left: 123px;
+    margin-right: 215px;
+
+}
+
+body, .section3, .pied-de-page, .pdp1, p{
+    padding-left: 0px;
+   
 }
 
 .pdp2{
     justify-content: flex-start;
     margin-left: 10px;
+    
 }
 
 .pdp3{
     justify-content: flex-start;
-    margin-left: 10px;
+    margin-left: 235px;
 }
