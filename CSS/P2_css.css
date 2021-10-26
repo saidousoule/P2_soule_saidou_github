@@ -377,13 +377,12 @@ i{
 }
 
 
-
 /* -------------------SECTION 3------------------------ */
 
 .section3{
-    display: flex;
+    display: bloc;
     margin-top: 18px;
-    
+    margin-right: 70px;
     height: 540px;
 }
 
@@ -401,6 +400,10 @@ i{
     margin-left: 53px;
     font-family: Raleway Arial, Helvetica, sans-serif;
     margin-top: 20px;
+}
+
+.titresection3{
+    display: flex;
 }
 
 .grande-image-S3{
@@ -470,7 +473,7 @@ i{
     background-color:#F2F2F2 ;
     width: 100%;
     justify-content: flex-start;
-    
+    margin-top: 65px;
 }
 
 .pdp1{
@@ -494,4 +497,15 @@ body, .section3, .pied-de-page, .pdp1, p{
 .pdp3{
     justify-content: flex-start;
     margin-left: 235px;
+}
+
+/*-------------------RESPONSIVE-------------------------*/
+
+@media screen and (max-width: 750px) {
+    
+}
+
+{
+    width:100%;
+    display: block;
 }
