@@ -192,13 +192,13 @@ i{
    display: flex;
    justify-content: space-evenly;
    margin-bottom: 60px;
+   flex-wrap: wrap-reverse;
 }
 
 .S1S1{
     background-color:#F2F2F2 ;
     display: block;
     border-radius: 20px;
-    width: 60%;
     height: 720px;
 }
 
@@ -290,7 +290,6 @@ i{
     background-color:#F2F2F2 ;
     display: block;
     border-radius: 20px;
-    width: 30%;
     justify-content: center;
     height: 720px;
     
@@ -390,6 +389,7 @@ i{
     display: flex;
     justify-content: space-evenly;
     height: 400px;
+    
 }
 
 .titre-section-3{
@@ -474,6 +474,11 @@ i{
     width: 100%;
     justify-content: flex-start;
     margin-top: 65px;
+    margin-bottom: 0;
+}
+
+.div-pied-de-page{
+    display: flex;
 }
 
 .pdp1{
@@ -501,11 +506,36 @@ body, .section3, .pied-de-page, .pdp1, p{
 
 /*-------------------RESPONSIVE-------------------------*/
 
-@media screen and (max-width: 750px) {
-    
-}
+/*---------point de rupture (max-width: 1370px)-------*/
 
-{
-    width:100%;
-    display: block;
-}
+@media screen and ( max-width: 1370px ){
+.annexe{
+    margin-bottom: 41px;
+    }    
+} 
+
+@media screen and ( max-width: 1370px ){
+    .activité-a-marseille{
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }    
+} 
+
+@media screen and ( max-width: 1370px ){
+    .footer{
+        position: relative;
+        display: block; 
+        bottom: 0;  
+    }  
+    
+    .div-pied-de-page{
+        display: flex;
+        flex-wrap: wrap;
+        position: normal;
+    }
+
+    #filtre-general{
+        flex-wrap: wrap;
+    }    
+
+} 
