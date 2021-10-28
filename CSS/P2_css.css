@@ -3,6 +3,7 @@ body{
     max-width: 1400px;
     margin: auto;
     font-family: Festif;
+    
 }
 
 /*header avec la nav bar*/
@@ -518,20 +519,45 @@ body, .section3, .pied-de-page, .pdp1, p{
     .activité-a-marseille{
         margin-top: 15px;
         flex-wrap: wrap;
-    }    
-} 
-
-@media screen and ( max-width: 1370px ){
-    .footer{
-        position: relative;
-        display: block; 
-        bottom: 0;  
     }  
     
+    .article-S3D1{
+        margin-top: 40px;
+    }
+
+    .last-div-section3{
+        margin-top: 40px;
+    }
+
+    
+} 
+
+
+
+@media screen and ( max-width: 1370px ){
+    .pied-de-page{
+        position: relative;
+        display: block; 
+        top: 590px;
+        padding-right: 100%;
+        
+    }  
+
+    .pdp1{
+        margin-left: 86px;
+    }
+    
+    .pdp2{
+        margin-left: 86px;
+    }
+
+    .pdp3{
+        margin-left: 86px;
+    }
+
     .div-pied-de-page{
-        display: flex;
         flex-wrap: wrap;
-        position: normal;
+        display: block;
     }
 
     #filtre-general{
