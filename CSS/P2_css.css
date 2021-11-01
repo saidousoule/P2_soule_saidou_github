@@ -2,8 +2,8 @@
 body{
     max-width: 1400px;
     margin: auto;
-    font-family: Festif;
-    
+    font-family: Festif, Raleway, Arial, Helvetica, sans-serif;
+    border: solid black 1px;
 }
 
 /*header avec la nav bar*/
@@ -67,9 +67,7 @@ a{
     padding-left: 48px;
 }
 
-#hebergement{
-    position: relative;
-}
+
 
 #h1-section1
 {
@@ -130,7 +128,16 @@ i{
   padding-left: 48px;
 }
 
+.filtre-general{
+    display: flex;
+    flex-wrap: wrap;
+    display: contents;
+}
 
+i{
+    
+    flex-wrap: wrap;
+}
 
 #Filtre-titre-h3{
     margin-top: 6px;
@@ -383,7 +390,8 @@ i{
     display: bloc;
     margin-top: 18px;
     margin-right: 70px;
-    height: 540px;
+    height: 620px;
+    
 }
 
 .activité-a-marseille{
@@ -408,16 +416,19 @@ i{
 }
 
 .grande-image-S3{
-    height: 428px;
-    width: 300px;
+    object-fit: cover;
+    height: 90%;
+    width: 100%;
     border-radius: 20px 20px 0 0;
     margin-bottom: 0px;
 }
 
 .petite-image-S3{
-    height: 180px;
-    width: 276px;
+    height: 80%;
+    width: 100%;
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: 50% 46%;
 }
 
 .S3D3{
@@ -468,14 +479,13 @@ i{
 /*-------------------------Footer----------------------*/
 
 .pied-de-page{
-    position:absolute;
-    left:0%;
+    
+    
     display: flex;
-    background-color:#F2F2F2 ;
-    width: 100%;
+    background-color: #F2F2F2;
     justify-content: flex-start;
-    margin-top: 65px;
-    margin-bottom: 0;
+ 
+    
 }
 
 .div-pied-de-page{
@@ -507,61 +517,23 @@ body, .section3, .pied-de-page, .pdp1, p{
 
 /*-------------------RESPONSIVE-------------------------*/
 
-/*---------point de rupture (max-width: 1370px)-------*/
+/*---------point de rupture -------*/
 
-@media screen and ( max-width: 1370px ){
-.annexe{
-    margin-bottom: 41px;
-    }    
-} 
-
-@media screen and ( max-width: 1370px ){
-    .activité-a-marseille{
-        margin-top: 15px;
-        flex-wrap: wrap;
-    }  
-    
-    .article-S3D1{
-        margin-top: 40px;
-    }
-
-    .last-div-section3{
-        margin-top: 40px;
-    }
-
-    
-} 
-
-
-
-@media screen and ( max-width: 1370px ){
-    .pied-de-page{
-        position: relative;
-        display: block; 
-        top: 590px;
-        padding-right: 100%;
+@media screen and (min-width: 751px) and (max-width: 1920px){
+    {
         
-    }  
+        }   
+    } 
 
-    .pdp1{
-        margin-left: 86px;
-    }
-    
-    .pdp2{
-        margin-left: 86px;
-    }
+@media screen and (max-width: 1338px){
+    .annexe{
+        margin-bottom: 41px;
+         }   
+        } 
 
-    .pdp3{
-        margin-left: 86px;
-    }
-
-    .div-pied-de-page{
-        flex-wrap: wrap;
-        display: block;
-    }
-
-    #filtre-general{
-        flex-wrap: wrap;
+@media screen and (min-width: 0px) and (max-width: 750px){
+.annexe{
+   margin-bottom: 41px;
     }    
-
 } 
+
