@@ -8,21 +8,26 @@ body{
 
 /*header avec la nav bar*/
 
+#Menu{
+    display: flex;
+    justify-content: space-between;
+}
 
 #lentete{
     display: flex;
     margin-top: 10px;
-    
+    display: inline-block;
 }
 
-#version-mobile{
-    display: flex;
-}
 
 #logo{
     justify-content: start;
     padding-left: 40px;
     margin-right: 65%;
+}
+
+ul li{
+    list-style-type: none;
 }
 
 a:hover {
@@ -56,6 +61,11 @@ a{
     padding-right: 50px;
     font-family: Raleway Arial, Helvetica, sans-serif;
     font-size: 1em;
+}
+
+#choix-menu{
+    display: flex;
+    display:inline-block;
 }
 
 /*  section 1 trouver votre hébergement pour des vacances de rêve */
@@ -119,9 +129,6 @@ i{
     margin-right: 0%;
 }
 
-#menu1{
-    display: flex;
-}
 
 /*----------- parti filtre de la section 1---------------*/
 
@@ -531,13 +538,8 @@ body, .section3, .pied-de-page, .pdp1, p{
 
 /*-------------------RESPONSIVE-------------------------*/
 
-/*---------point de rupture -------*/
+/*---------    point de rupture    -----------*/
 
-@media screen and (min-width: 801px) and (max-width: 1920px){
-    {
-        
-        }   
-    } 
 
 @media screen and (max-width: 1338px){
     .annexe{
@@ -552,13 +554,87 @@ body, .section3, .pied-de-page, .pdp1, p{
         flex-direction: row-reverse;
     }
 
+/*--------------section 2 responsive -----------*/
     .annexe{
         margin-bottom: 41px;
         width: 100%;
         border-radius: 0px;
     }
-    
-   
 
+/*----------section 3 responsive mobile --------*/
+    .S1S1{
+        display: none;
+    }
+
+    .bloc1-S3{
+        display: block; 
+        
+    }
+    
+    .bloc2-S3{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .activité-a-marseille{
+        display: block;  
+    }
+
+    .grande-image-S3 {
+        object-fit: cover;
+        height: 75%;
+        width: 100%;
+    }
+
+    .article-S3D1{
+        width: 96%;
+        margin: auto;
+        justify-content: center;
+        height: 162px;
+        margin-bottom: 30px;
+    }
+
+    .petite-image-S3{
+        object-fit: cover;
+        height: 75%;
+        width: 100%;
+    }
+
+    .article-S3D2{ 
+        width: 96%;
+        margin: auto;
+        justify-content: center;
+        height: 162px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    
+    .S3D3{
+    width: 100%;
+    height: 162px;
+    justify-content: none;
+    margin-right: 0px;
+    }
+/*-------------pied de page responsive----------*/
+
+    .div-pied-de-page{
+        display: block;
+    }
+
+    .pdp1{
+        margin-left: 10%;
+    }
+
+    .pdp2{
+        margin-left: 10%;
+        margin-top: 40px;
+    }
+
+    .pdp3{
+        margin-left: 10%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 } 
+
 
