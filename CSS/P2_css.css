@@ -11,20 +11,22 @@ body{
 
 #lentete{
     display: flex;
-    justify-content:space-between;
     margin-top: 10px;
-
+    
 }
 
+#version-mobile{
+    display: flex;
+}
 
 #logo{
     justify-content: start;
     padding-left: 40px;
+    margin-right: 65%;
 }
 
-.nom-nav:hover {
+a:hover {
     border-top: 2px solid #0065FC;
-    
     padding-top: 15px;
     width: 70px;
     justify-content: space-evenly;
@@ -36,7 +38,8 @@ body{
 
 #navbar{
     margin-right: 40px;
-
+    display: flex;
+    margin-top: 13px;
 }
 
 #description-menu
@@ -47,15 +50,12 @@ body{
     font-family: Raleway Arial, Helvetica, sans-serif;    
 }
 
-.nom-nav{
-    padding-right: 40px;
-    
-    text-decoration: none;
-}
-
 a{
     text-decoration: none;
     color:  #0065FC;
+    padding-right: 50px;
+    font-family: Raleway Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 /*  section 1 trouver votre hébergement pour des vacances de rêve */
@@ -117,6 +117,10 @@ i{
     padding: 9px 17px 7px 17px;
     border: 1px solid #F2F2F2; 
     margin-right: 0%;
+}
+
+#menu1{
+    display: flex;
 }
 
 /*----------- parti filtre de la section 1---------------*/
@@ -542,8 +546,19 @@ body, .section3, .pied-de-page, .pdp1, p{
         } 
 
 @media screen and (min-width: 0px) and (max-width: 800px){
-.annexe{
-   margin-bottom: 41px;
-    }    
+
+
+    #navbar{
+        flex-direction: row-reverse;
+    }
+
+    .annexe{
+        margin-bottom: 41px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+   
+
 } 
 
