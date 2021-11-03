@@ -133,7 +133,6 @@ i{
 /*----------- parti filtre de la section 1---------------*/
 
 
-
 #filtre-general{
   flex-wrap: wrap;
 }
@@ -147,6 +146,7 @@ i{
 
 #Filtre-titre-h3{
     margin-top: 6px;
+    margin-left: 30px;
 }
 
 .nom-des-filtres{
@@ -575,6 +575,27 @@ body, .section3, .pied-de-page, .pdp1, p{
         margin-top: 25px;
     }
 
+    #D1S1{
+        padding-left: 1px;
+        justify-content: center;
+    }
+
+    #button-recherche{
+        padding: 8px 6px 7px 7px;
+    }
+
+    #ville{
+        padding: 9px 8px 7px 17px;
+    }
+    
+    #h1-section1 {        
+        padding: 10px 0px 0px 15px;
+    }
+
+    #location {
+        padding-left: 15px;
+    }
+    
 /*--------------section 2 responsive -----------*/
     .annexe{
         margin-bottom: 41px;
