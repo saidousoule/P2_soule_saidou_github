@@ -559,6 +559,22 @@ body, .section3, .pied-de-page, .pdp1, p{
         flex-direction: row-reverse;
     }
 
+/*---section hebergement responsive mobile----*/
+    
+    #info{
+        margin-left: 10px;
+    }
+
+    #information{
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    #info-logement{
+        padding-top: 0px;
+        margin-top: 25px;
+    }
+
 /*--------------section 2 responsive -----------*/
     .annexe{
         margin-bottom: 41px;
