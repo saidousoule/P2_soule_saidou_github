@@ -596,13 +596,19 @@ body, .section3, .pied-de-page, .pdp1, p{
 
     .h1-section2{
         position: absolute;
-        width: 100%;
+        width: 90%;
         display: flex;
+        white-space: nowrap;
     }
 
     .h1-section22{
         position: relative;
         margin-left: 10px;
+    }
+
+    .fa-chart-line {
+        color: black;
+        margin-left: 95px;
     }
 
 /*----------section 3 responsive mobile --------*/
