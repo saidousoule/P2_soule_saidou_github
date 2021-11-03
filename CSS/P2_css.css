@@ -596,10 +596,13 @@ body, .section3, .pied-de-page, .pdp1, p{
 
     .h1-section2{
         position: absolute;
+        width: 100%;
+        display: flex;
     }
 
     .h1-section22{
         position: relative;
+        margin-left: 10px;
     }
 
 /*----------section 3 responsive mobile --------*/
