@@ -3,7 +3,7 @@ body{
     max-width: 1400px;
     margin: auto;
     font-family: Festif, Raleway, Arial, Helvetica, sans-serif;
-    border: solid black 1px;
+    
 }
 
 /*header avec la nav bar*/
@@ -127,6 +127,10 @@ i{
     padding: 9px 17px 7px 17px;
     border: 1px solid #F2F2F2; 
     margin-right: 0%;
+}
+
+#Menu-mobile{
+    display: none;
 }
 
 
@@ -553,10 +557,37 @@ body, .section3, .pied-de-page, .pdp1, p{
         margin: 0;
         width: 100%;
     }
+/*--------NAV BAR responsive mobile--------*/    
+    #Menu{
+        display: none;
+    }
 
+    #Menu-mobile{
+        display: block;
+    }
 
-    #navbar{
-        flex-direction: row-reverse;
+    #lentete-mobile{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #choix-menu{
+        display: flex;
+        justify-content: space-evenly;
+        border-bottom: #F2F2F2 3px solid;
+    }
+
+    #sinscrire{
+        margin-top: 2px;
+    }
+
+    #inscription{
+        margin-top: 13px;
+    }
+
+    #logo-mobile{
+        margin-left: 25px;
+        margin-top: 5px;
     }
 
 /*---section hebergement responsive mobile----*/
@@ -595,7 +626,16 @@ body, .section3, .pied-de-page, .pdp1, p{
     #location {
         padding-left: 15px;
     }
-    
+
+    a:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        padding-top: 15px;
+        padding-bottom: 16px;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
 /*--------------section 2 responsive -----------*/
     .annexe{
         margin-bottom: 41px;
