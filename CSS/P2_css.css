@@ -135,21 +135,15 @@ i{
 
 
 #filtre-general{
-  display: flex;
-  padding-left: 48px;
   flex-wrap: wrap;
 }
 
-.filtre-general{
+.filtre-generals{
     display: flex;
-    flex-wrap: wrap;
-    display: contents;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
 
-i{
-    
-    flex-wrap: wrap;
-}
 
 #Filtre-titre-h3{
     margin-top: 6px;
@@ -204,8 +198,14 @@ i{
     width: 25px;
 }
 
+#h3-filtre{
+    display: flex;
+}
 
-
+#ensemble-des-filtres{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /*--------------------------Section 2---------------- */
 
