@@ -782,10 +782,10 @@ body, .section3, .pied-de-page, .pdp1, p{
         margin-bottom: 40px;
     }
 } 
-
+/*
 @media screen and (max-width: 420px){
     .image2-section2-2{
         width: 250px;
     }
-}
+}*/
 
