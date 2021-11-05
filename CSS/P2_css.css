@@ -3,7 +3,7 @@ body{
     max-width: 1400px;
     margin: auto;
     font-family: Festif, Raleway, Arial, Helvetica, sans-serif;
-    
+    border: solid black 3px;
 }
 
 /*header avec la nav bar*/
@@ -551,12 +551,13 @@ body, .section3, .pied-de-page, .pdp1, p{
          }   
         } 
 
-@media screen and (min-width: 0px) and (max-width: 800px){
+@media screen and (max-width: 800px){
 
     body{
         margin: 0;
         width: 100%;
     }
+
 /*--------NAV BAR responsive mobile--------*/    
     #Menu{
         display: none;
@@ -607,7 +608,7 @@ body, .section3, .pied-de-page, .pdp1, p{
     }
 
     #D1S1{
-        padding-left: 1px;
+        padding-left: 20px;
         justify-content: center;
     }
 
@@ -693,6 +694,7 @@ body, .section3, .pied-de-page, .pdp1, p{
     
     .titre-section-3{
         margin-left: 5%;
+        width: 0;
     }    
 
     .bloc1-S3{
