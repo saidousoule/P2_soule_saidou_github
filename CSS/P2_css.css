@@ -3,7 +3,7 @@ body{
     max-width: 1400px;
     margin: auto;
     font-family: Festif, Raleway, Arial, Helvetica, sans-serif;
-    border: solid black 3px;
+    
 }
 
 /*header avec la nav bar*/
@@ -380,6 +380,7 @@ i{
     display: block;
     padding-left: 3px;
     padding-top: 5px;
+    margin-bottom: 0%;
 }
 
 .text-annexe-h4{
@@ -408,7 +409,7 @@ i{
 }
 
 .fa-star:hover{
-    color: #F2F2F2;
+    color: #F2F2F2;   
 }
 
 .fa-chart-line{
@@ -440,7 +441,7 @@ i{
     margin-left: 53px;
     font-family: Raleway Arial, Helvetica, sans-serif;
     width: 398px;
-   
+    white-space: nowrap;
 }
 
 .grande-image-S3{
