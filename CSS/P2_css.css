@@ -36,6 +36,7 @@ a:hover {
     padding-top: 15px;
     width: 70px;
     justify-content: space-evenly;
+    
 }
 
 #description-menu{
@@ -154,6 +155,7 @@ i{
 #Menu-mobile{
     display: none;
 }
+
 
 
 /*----------- parti filtre de la section 1---------------*/
@@ -361,7 +363,6 @@ i{
 
 .image2-section2{
     object-fit: cover;
-    height: 160px;
     width: 170px;
     border-radius: 20px 0px 0px 20px;
     margin-top: 1px;
@@ -710,7 +711,6 @@ body, .section3, .pied-de-page, .pdp1, p{
         padding-top: 15px;
         padding-bottom: 16px;
         width: 100%;
-        justify-content: space-evenly;
     }
 
 /*--------------section 2 responsive -----------*/
@@ -851,10 +851,5 @@ body, .section3, .pied-de-page, .pdp1, p{
         margin-bottom: 40px;
     }
 } 
-/*
-@media screen and (min-width: 420px){
-    .image2-section2-2{
-        width: 250px;
-    }
-}*/
+
 
