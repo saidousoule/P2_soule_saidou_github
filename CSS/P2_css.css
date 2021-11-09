@@ -437,10 +437,15 @@ i{
 .fas{
     color: #0065FC;
     margin-bottom: 5px;
+    background: transparent;
 }
 
 .fa-star:hover{
     color: #F2F2F2;   
+}
+
+.star, .star-white{
+    color: #F2F2F2;
 }
 
 .fa-chart-line{
@@ -448,9 +453,6 @@ i{
     margin-left: 126px;
 }
 
-#3eme-div{
-        
-}
 
 
 /* -------------------SECTION 3------------------------ */
