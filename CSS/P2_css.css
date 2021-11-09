@@ -424,6 +424,7 @@ i{
     margin-left: 2px;
     width: 94px;
     height: 16px;
+    background: transparent;
 }
 
 .star-annexe{
@@ -437,7 +438,7 @@ i{
 .fas{
     color: #0065FC;
     margin-bottom: 5px;
-    background: transparent;
+    
 }
 
 .fa-star:hover{
@@ -446,6 +447,11 @@ i{
 
 .star, .star-white{
     color: #F2F2F2;
+    
+}
+
+.etoile-transparente{
+    background: transparent;
 }
 
 .fa-chart-line{
