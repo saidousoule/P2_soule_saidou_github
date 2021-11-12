@@ -30,7 +30,7 @@ ul li{
     list-style-type: none;
 }
 
-a:hover {
+.a:hover {
     border-top: 2px solid #0065FC;
     color: #0065FC;
     padding-top: 15px;
@@ -57,7 +57,9 @@ a:hover {
     font-family: Raleway Arial, Helvetica, sans-serif;    
 }
 
-a{
+
+
+.a{
     text-decoration: none;
     color: black;
     padding-right: 50px;
@@ -239,6 +241,11 @@ i{
 
 /*--------------------------Section 2---------------- */
 
+.lien-image{
+    text-decoration: none;
+    color: black;
+}
+
 .section2{
    display: flex;
    justify-content: space-evenly;
@@ -270,11 +277,15 @@ i{
 }
 
 .h1-section22{
+    margin-bottom: 0px;
+    margin-top: 0px;
     padding-left: 20px;
+    padding-top: 33px;
 }
 
 .S2A1{
     margin-top: 100px;
+    margin-top: 44px;
 }
 
 .image-section2{
@@ -377,7 +388,7 @@ i{
     border: #fff solid 5px;
     height: 162px;
     justify-content: space-evenly;
-    margin: 100px 20px 0px 20px;
+    margin: 110px 20px 0px 20px;
     display: flex;
     justify-content: flex-start;
     box-shadow: 0px 2px 13px -8px;
@@ -710,7 +721,7 @@ body, .section3, .pied-de-page, .pdp1, p{
         padding-left: 15px;
     }
 
-    a:hover {
+    .a:hover {
         border-bottom: 2px solid #0065FC;
         border-top: none;
         padding-top: 15px;
