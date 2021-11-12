@@ -175,6 +175,10 @@ i{
     font-weight: bold;
 }
 
+.hover1:hover, .hover2:hover, .hover3:hover, .hover4:hover{
+    background: #0065FC;
+    opacity: 0.3;
+}
 
 #Filtre-titre-h3{
     margin-top: 6px;
@@ -238,6 +242,8 @@ i{
     display: flex;
     flex-wrap: wrap;
 }
+
+
 
 /*--------------------------Section 2---------------- */
 
