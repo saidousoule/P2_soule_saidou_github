@@ -2,7 +2,7 @@
 body{
     max-width: 1400px;
     margin: auto;
-    font-family: Festif, Raleway, Arial, Helvetica, sans-serif; 
+    /*font-family: Festif, Raleway, Arial, Helvetica, sans-serif; */
 }
 
 /*header avec la nav bar*/
@@ -642,12 +642,82 @@ body, .section3, .pied-de-page, .pdp1, p{
 
     #inscription{
         margin-top: 13px;
+        padding-right: 25px;
     }
 
     #logo-mobile{
         margin-left: 25px;
         margin-top: 5px;
     }
+
+    #ul-mobile1{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #ul-mobile2{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .a{
+        padding-right: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .a:hover {
+        border-bottom: none;
+        border-top: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+        color: #0065FC;
+    }
+
+    #ul-mobile1:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #ul-mobile2:hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #ul-mobile1{
+        padding-bottom: 10px;
+        border-bottom: none;
+        border-top: none;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    #ul-mobile2{
+        padding-bottom: 10px;
+        border-bottom: none;
+        border-top: none;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+
 
 /*---section hebergement responsive mobile----*/
     
@@ -702,17 +772,10 @@ body, .section3, .pied-de-page, .pdp1, p{
 
     #location {
         padding-left: 15px;
-    }
-
-    .a:hover {
-        border-bottom: 2px solid #0065FC;
-        border-top: none;
-        padding-top: 15px;
-        padding-bottom: 16px;
-        width: 100%;
-    }
+    } 
 
 /*--------------section 2 responsive -----------*/
+
     .annexe{
         margin-bottom: 41px;
         width: 100%;
