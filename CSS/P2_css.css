@@ -50,7 +50,7 @@ ul li{
     display: flex;
     flex-direction: row;
     list-style: none;
-    font-family: Raleway Arial, Helvetica, sans-serif;    
+    font-family: (Raleway) (Arial), (Helvetica), (sans-serif);    
 }
 
 .a{
@@ -823,7 +823,7 @@ body, .section3, .pied-de-page, .pdp1, p{
     height: 162px;
     margin-right: 0px;
     }
-    
+
 /*-------------pied de page responsive----------*/
 
     .div-pied-de-page{
