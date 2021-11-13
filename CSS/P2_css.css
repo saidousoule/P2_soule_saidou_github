@@ -36,7 +36,6 @@ ul li{
     padding-top: 15px;
     width: 70px;
     justify-content: space-evenly;
-    
 }
 
 #description-menu{
@@ -49,15 +48,12 @@ ul li{
     margin-top: 13px;
 }
 
-#description-menu
-{
+#description-menu{
     display: flex;
     flex-direction: row;
     list-style: none;
     font-family: Raleway Arial, Helvetica, sans-serif;    
 }
-
-
 
 .a{
     text-decoration: none;
@@ -81,6 +77,10 @@ ul li{
     display:inline-block;
 }
 
+#choix-menu2{
+    display: flex;
+    
+}
 
 /*  section 1 trouver votre hébergement pour des vacances de rêve */
 
@@ -538,7 +538,7 @@ i{
     box-shadow: 0px 2px 13px -8px;
     background-color: #fff;
     border-radius: 20px;
-    border: #fff solid px;
+    border: #fff solid;
     height: 481px;
     width: 300px;
     justify-content: center;
@@ -849,7 +849,6 @@ body, .section3, .pied-de-page, .pdp1, p{
     .S3D3{
     width: 100%;
     height: 162px;
-    justify-content: none;
     margin-right: 0px;
     }
 /*-------------pied de page responsive----------*/
