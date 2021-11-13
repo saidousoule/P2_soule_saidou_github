@@ -747,7 +747,7 @@ body, .section3, .pied-de-page, .pdp1, p{
         display: flex;
     }
 
-    #button-recherche{
+    .button-recherche{
         padding: 10px 15px 10px 12px;
         border-radius: 10px 10px 10px 10px;
     }
