@@ -72,7 +72,7 @@ ul li{
 
 #choix-menu{
     display: flex;
-    display:inline-block;
+    
 }
 
 #choix-menu2{
@@ -147,9 +147,6 @@ i{
     margin-right: 0%;
 }
 
-#Menu-mobile{
-    display: none;
-}
 
 /*----------- parti filtre de la section 1---------------*/
 
@@ -618,7 +615,7 @@ body, .section3, .pied-de-page, .pdp1, p{
 /*--------NAV BAR responsive mobile--------*/ 
 
     #Menu{
-        display: none;
+        display: block;
     }
 
     #Menu-mobile{
@@ -630,14 +627,52 @@ body, .section3, .pied-de-page, .pdp1, p{
         justify-content: space-between;
     }
 
-    #choix-menu2{
+    #choix-menu{
         display: flex;
         justify-content: space-evenly;
         border-bottom: #F2F2F2 3px solid;
+        
     }
 
-    #sinscrire{
-        margin-top: 2px;
+    .sinscrire{
+        position: absolute;
+        bottom: 93%;
+        right: 5%;  
+    }
+    
+   #tag{
+       display: flex;
+   }  
+
+    .heberg{
+        padding-right: 1%;
+
+    }
+
+    .heberg:hover{
+        border-bottom: solid 3px #0065FC;
+        width: 45%;
+        position: absolute;
+        padding-bottom: 15px;
+        left: 0;
+        color: #0065FC;
+    }
+
+    .activ:hover{
+        border-bottom: solid 3px #0065FC;
+        width: 40%;
+        position: absolute;
+        right: 0;
+        color: #0065FC;
+        padding-bottom: 15px;
+        
+    }
+
+    .activ{
+        padding-left: 1%;
+        padding-left: 40px;
+        width: 74.575;
+        margin-left: 60px;
     }
 
     #inscription{
@@ -666,17 +701,12 @@ body, .section3, .pied-de-page, .pdp1, p{
 
     .a{
         padding-right: 0px;
-        text-align: center;
-        width: 100%;
+        text-align: center;   
     }
 
     .a:hover {
-        border-bottom: none;
         border-top: none;
         padding-top: 0px;
-        padding-bottom: 0px;
-        width: 100%;
-        color: #0065FC;
     }
 
     #ul-mobile1:hover {
